@@ -1,0 +1,118 @@
+html
+{
+	scroll-behavior:smooth;
+}
+body
+{
+	margin:0px;
+	font-family:'comic sans ms',sans-serif;
+}
+aside
+{
+	background:linear-gradient(45deg,darkslategrey,limegreen);
+	width:250px;
+	float:left;
+	height:900px;
+	position:fixed;
+	top:0px;
+}
+aside>#logo
+{
+	text-align:center;
+}
+aside>#logo>.fa 
+{
+	margin-top:30px;
+	font-size:100px;
+	/*color:white;*/
+	border:10px solid white;
+	border-radius:100%;
+	box-shadow:0 0 10px white;
+}
+aside>#links
+{
+	text-align:center;
+	margin-top:30px;
+}
+aside>#links>a
+{
+	color:white;
+	text-decoration:none;
+	display:block;
+	margin:10px;
+	padding:5px 14px;
+	border-radius:10px;
+}
+aside>#links>a:hover
+{
+	background-color:white;
+	color:green;
+	box-shadow:0 0 10px white;
+}
+/*........................................*/
+section
+{
+	background:linear-gradient(45deg,darkslategrey,limegreen);
+	color:white;
+	margin-left:250px;
+}
+section h1
+{
+	margin:0px;
+	font-size:35px;
+}
+section>#obj>p
+{
+	font-size:20px;
+}
+section>article
+{
+	padding:20px;
+}
+section>#skill>table
+{
+	width:100%;
+}
+table,td,th,tr
+{
+	border:2px solid white;
+	border-collapse:collapse;
+	text-align:center;
+}
+table
+{
+	margin-top:20px;
+	width:100%;
+}
+.form-group
+{
+	margin-top:10px;
+}
+input[type="text"],input[type="date"]
+{
+	width:300px;
+	height:30px;
+	margin-left:20px;
+	border: none;
+	outline:none;
+	background:transparent;
+	border-bottom:2px solid white;
+	color:white;
+	font-size:20px;
+}
+
+::placeholder
+{
+	color:white;
+
+}
+label
+{
+	margin-left:20px;
+	font-size:20px;
+}
+input[type="checkbox"]
+{
+	height:20px;
+	width:20px;
+}
